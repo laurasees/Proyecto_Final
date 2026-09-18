@@ -47,13 +47,13 @@ Requisitos de Python:
 ---
 
 ## 🔄 Próximos Pasos
-Implementar modelos predictivos en Python (Series Temporales / Prophet) para proyectar la demanda de inventario por categoría.
-Diseñar estrategias de venta cruzada (cross-selling) y empaquetado para elevar el número promedio de unidades por pedido.
-Automatizar la ingesta periódica de datos mediante conectores directos a la API de Amazon Seller Central.
+- Implementar modelos predictivos en Python (Series Temporales / Prophet) para proyectar la demanda de inventario por categoría.
+- Diseñar estrategias de venta cruzada (cross-selling) y empaquetado para elevar el número promedio de unidades por pedido.
+- Automatizar la ingesta periódica de datos mediante conectores directos a la API de Amazon Seller Central.
 
 ---
 
 ## ✒️ Autores y Agradecimientos
 Laura Serra - Desarrollo del proyecto, ETL, EDA y Dashboard 
-Agradecimientos a la escuela y mentores por la guía en la estructuración de este análisis final.
-A la comunidad Open Data de **data.world** y a los contribuidores de **Kaggle** por recopilar y compartir públicamente el dataset de Amazon Sales Report, impulsando el aprendizaje y la democratización del análisis de datos.
+- Agradecimientos a la escuela y mentores por la guía en la estructuración de este análisis final.
+- A la comunidad Open Data de **data.world** y a los contribuidores de **Kaggle** por recopilar y compartir públicamente el dataset de Amazon Sales Report, impulsando el aprendizaje y la democratización del análisis de datos.
