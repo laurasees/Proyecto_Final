@@ -33,8 +33,8 @@ Requisitos de Python:
 
 ## 📊 Resultados y Conclusiones
 1. Se alcanzó un volumen de facturación global de $76.03M con 116.6K unidades vendidas durante el periodo analizado.
-2. El valor medio por transacción se situó en $661.35, reflejando compras de volumen con una mediana de 1 unidad por pedido.
-3. Se identificó un 14.21% de pedidos cancelados, lo que señala un punto de fricción operativa relevante a revisar en la gestión de inventarios y confirmaciones de orden.
+2. El valor promedio por transacción/registros se situó en $5.895,28  reflejando compras de volumen con una mediana de 1 unidad por pedido.
+3. Se identificó una tasa de cancelación por volumen de unidades del 4,85%, representando un punto de fricción operativa a supervisar.
 4. Las categorías Set, Kurta y Western Dress representan el principal motor de ingresos del catálogo comercial.
 
 ---
