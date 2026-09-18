@@ -16,7 +16,7 @@ Para llevar a cabo el análisis se empleó un enfoque mixto:
 
 ## 🗂️ Estructura del Proyecto
 
-```text
+
 ├── data/
 │   ├── raw/                       # Archivos originales de Amazon Sales Report y P&L
 │   └── processed/                 # Dataset limpio y transformado (ecommerce_final_clean.csv)
@@ -31,38 +31,29 @@ Para llevar a cabo el análisis se empleó un enfoque mixto:
 
 ---
 
-🛠️ Instalación y Requisitos
+## 🛠️ Instalación y Requisitos
 Este proyecto utiliza Python 3.9+ para el procesamiento de datos y Microsoft Excel para la capa de visualización interactiva.
 Requisitos de Python:
-pandas
-numpy
-Pasos de ejecución:
-  1. Clonar el repositorio:
-      git clone [https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/tu-usuario/nombre-del-repositorio.git)
-  2. Ejecutar los scripts de limpieza y análisis en la carpeta src/:
-      python src/01_eda_y_limpieza.py
-      python src/02_analisis_estadistico.py
-  3. Abrir el archivo results/Analisis_ventas_e-commerce.xlsx
+- pandas
+- numpy
+---
 
+## 📊 Resultados y Conclusiones
+1. Se alcanzó un volumen de facturación global de $76.03M con 116.6K unidades vendidas durante el periodo analizado.
+2. El valor medio por transacción se situó en $661.35, reflejando compras de volumen con una mediana de 1 unidad por pedido.
+3. Se identificó un 14.21% de pedidos cancelados, lo que señala un punto de fricción operativa relevante a revisar en la gestión de inventarios y confirmaciones de orden.
+4. Las categorías Set, Kurta y Western Dress representan el principal motor de ingresos del catálogo comercial.
 
 ---
 
-📊 Resultados y Conclusiones
-Facturación e Ingresos Totales: Se alcanzó un volumen de facturación global de $76.03M con 116.6K unidades vendidas durante el periodo analizado.
-Ticket Medio: El valor medio por transacción se situó en $661.35, reflejando compras de volumen con una mediana de 1 unidad por pedido.
-Tasa de Cancelación: Se identificó un 14.21% de pedidos cancelados, lo que señala un punto de fricción operativa relevante a revisar en la gestión de inventarios y confirmaciones de orden.
-Concentración de Producto: Las categorías Set, Kurta y Western Dress representan el principal motor de ingresos del catálogo comercial.
-
----
-
-🔄 Próximos Pasos
+## 🔄 Próximos Pasos
 Implementar modelos predictivos en Python (Series Temporales / Prophet) para proyectar la demanda de inventario por categoría.
-Diseñar estrategias de venta cruzada (cross-selling) y empaquetado (bundling) para elevar el número promedio de unidades por pedido.
+Diseñar estrategias de venta cruzada (cross-selling) y empaquetado para elevar el número promedio de unidades por pedido.
 Automatizar la ingesta periódica de datos mediante conectores directos a la API de Amazon Seller Central.
 
 ---
 
-✒️ Autores y Agradecimientos
+## ✒️ Autores y Agradecimientos
 Laura Serra - Desarrollo del proyecto, ETL, EDA y Dashboard 
 Agradecimientos a la escuela y mentores por la guía en la estructuración de este análisis final.
 A la comunidad Open Data de **data.world** y a los contribuidores de **Kaggle** por recopilar y compartir públicamente el dataset de Amazon Sales Report, impulsando el aprendizaje y la democratización del análisis de datos.
