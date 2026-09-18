@@ -16,14 +16,14 @@ Para llevar a cabo el análisis se empleó un enfoque mixto:
 
 ## 🗂️ Estructura del Proyecto
 
-´´´
 ├── data.zip                      # Archivos de datos comprimidos (data/raw y data/processed)
 ├── src.zip                       # Scripts comprimidos de procesamiento de Python
 ├── Informe_Analisis_PF.md       # Informe ejecutivo y técnico con hallazgos
 ├── Analisis_Ventas_e-commerce.xlsx  # Dashboard interactivo en Excel
 └── README.md                     # Descripción general del proyecto
+
 ---
-´´´
+
 ## 🛠️ Instalación y Requisitos
 Este proyecto utiliza Python 3.9+ para el procesamiento de datos y Microsoft Excel para la capa de visualización interactiva.
 Requisitos de Python:
