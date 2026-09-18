@@ -16,21 +16,14 @@ Para llevar a cabo el análisis se empleó un enfoque mixto:
 
 ## 🗂️ Estructura del Proyecto
 
-
-├── data/
-│   ├── raw/                       # Archivos originales de Amazon Sales Report y P&L
-│   └── processed/                 # Dataset limpio y transformado (ecommerce_final_clean.csv)
-├── src/
-│   ├── 01_eda_y_limpieza.py          # Script de unificación, limpieza y ETL
-│   └── 02_analisis_estadistico.py # Script para análisis exploratorio de datos (EDA)
-├── docs/
-│   └── informe_analissi_pf.pdf        # Informe ejecutivo y técnico con hallazgos
-├── results/
-│   └── Analisis_ventas_e-commerce.xlsx   # Dashboard interactivo en Excel
-└── README.md                      # Descripción general del proyecto
-
+´´´
+├── data.zip                      # Archivos de datos comprimidos (data/raw y data/processed)
+├── src.zip                       # Scripts comprimidos de procesamiento de Python
+├── Informe_Analisis_PF.md       # Informe ejecutivo y técnico con hallazgos
+├── Analisis_Ventas_e-commerce.xlsx  # Dashboard interactivo en Excel
+└── README.md                     # Descripción general del proyecto
 ---
-
+´´´
 ## 🛠️ Instalación y Requisitos
 Este proyecto utiliza Python 3.9+ para el procesamiento de datos y Microsoft Excel para la capa de visualización interactiva.
 Requisitos de Python:
